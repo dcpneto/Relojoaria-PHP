@@ -1,7 +1,7 @@
 CREATE DATABASE relojoaria DEFAULT CHARACTER SET utf8;
 USE relojoaria;
 
-CREATE TABLE livros (
+CREATE TABLE relogios (
     nome          VARCHAR(255) NOT NULL,
     marca         VARCHAR(255),
     quantidade    INT NOT NULL,
